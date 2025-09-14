@@ -1,6 +1,5 @@
 def main():
     first_name = "Jeerapichsinee"
     last_name = "Inphol"
-    whole_name = first_name + " " + last_name
-    print(whole_name)
+    print(first_name, last_name)
 main()
