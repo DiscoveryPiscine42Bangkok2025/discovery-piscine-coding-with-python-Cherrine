@@ -49,18 +49,22 @@ def is_king_in_check(grid, king_row, king_col, board_size):
             check_bishop_attacks(grid, king_row, king_col, board_size) or
             check_queen_attacks(grid, king_row, king_col, board_size))
 
+# Check if Pawn can attack the King
 def check_pawn_attacks():
 
     return False
 
+# Check if Rook can attack the King
 def check_rook_attacks():
 
     return False
 
+# Check if Bishop can attack the King
 def check_bishop_attacks():
     
     return False
 
+# Check if Queen can attack the King
 def check_queen_attacks():
 
     return False
