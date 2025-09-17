@@ -21,9 +21,12 @@ def checkmate(board):
         print('Fail')
         return
 
-    if is_king_in_check(grid, king_pos, [0], king_pos[1], board_size):
-        print('Success')
-    else:
-        print('Fail')
+    # demo function(is_king_in_check)
 
-def find_king(grid,)
+    # if is_king_in_check(grid, king_pos, [0], king_pos[1], board_size):
+    #     print('Success')
+    # else:
+    #     print('Fail')
+
+def find_king(grid)
+    
