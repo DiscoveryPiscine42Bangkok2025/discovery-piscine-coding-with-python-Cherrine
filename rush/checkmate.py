@@ -41,4 +41,26 @@ def find_king(grid, board_size):
                 king_pos = (i, j)
 
     return king_pos
+
+# Check if king is in the position of Checkmate
+def is_king_in_check(grid, king_row, king_col, board_size):
+    return (check_pawn_attacks(grid, king_row, king_col, board_size) or
+            check_rook_attacks(grid, king_row, king_col, board_size) or
+            check_bishop_attacks(grid, king_row, king_col, board_size) or
+            check_queen_attacks(grid, king_row, king_col, board_size))
+
+def check_pawn_attacks():
+
+    return False
+
+def check_rook_attacks():
+
+    return False
+
+def check_bishop_attacks():
     
+    return False
+
+def check_queen_attacks():
+
+    return False
