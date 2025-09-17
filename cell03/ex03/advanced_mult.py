@@ -1,12 +1,16 @@
-def main():
-    i = 0
-    while i <= 10:
-        print(f"Table de {i}: ", end="")
-        j = 0
-        while j <= 10:
-            print(i * j, end=" ")
-            j += 1
-        print()
-        i += 1
+def main(text):
+    if text:
+        print("none")
+        return
+    else:
+        i = 0
+        while i <= 10:
+            print(f"Table de {i}: ", end="")
+            j = 0
+            while j <= 10:
+                print(i * j, end=" ")
+                j += 1
+            print()
+            i += 1
 
-main()
+main(input())
