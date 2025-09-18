@@ -7,7 +7,7 @@ def main(text):
     else:
         for arg in text:
             if arg.endswith("ism"):
-                print(arg)
+                pass
             else:
                 print(arg + "ism")
 
